@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #080808;
+    background:url(https://next-image-transform.sandervspl.dev/image/https://www.wowvalor.app/assets/talent-tree/paladin-holy.webp?w=3840&q=75);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,12 +29,12 @@ main {
 
 /* Quadro principal */
 .form-container {
-    width: 40%; /* Reduz a largura do quadro */
-    max-width: 350px;
-    padding: 20px;
-    background: linear-gradient(135deg, #1f4c8b, #4c81b3);
+    border-radius:28% 72% 27% 73% / 97% 34% 66% 3%; 
+    width: 50%; /* Reduz a largura do quadro */
+    max-width: 450px;
+    padding: 50px;
+    background: linear-gradient(#ffffff, #ffffff);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
     text-align: center;
     z-index: 1; /* Coloca o quadro acima das imagens de fundo */
     position:relative;
@@ -42,14 +42,14 @@ main {
 }
 
 h2 {
-    color: #d6d85f;
+    color: #53af9b;
 }
 
 label {
     display: block;
     margin: 15px 0 5px;
     font-size: 1.1em;
-    color: #91cf2d;
+    color: #cfc42d;
 }
 
 input {

@@ -1,44 +1,24 @@
 
 ---
 
-# Classificador de Nível de Herói
+# Classificador de Nível de Herói 🦸🏽‍♂️
 
-**Desenvolvido por Douglas Lucio - IONKOD**
+🔺**Desenvolvido por Eduardo Freitas**🔻
 
-### Sobre o Projeto
-Este é um projeto interativo que permite classificar o nível de um herói com base em sua experiência (XP). Com uma interface responsiva e focada na acessibilidade, o projeto é adequado para ser acessado por usuários com deficiência visual. A cada entrada de XP, o sistema classifica o herói em diferentes níveis, como Ferro, Bronze, Prata, Ouro, entre outros, e fornece feedback visual e auditivo.
+### O Projeto
+Crie a sua jornada épica com a ferramenta interativa que transforma cada ponto de experiência em um marco na evolução do seu herói. Com um sistema de classificação dinâmico e personalizável, você acompanha a progressão do seu personagem, desde os primeiros passos até o topo do ranking.
 
-### Funcionalidades
-- **Classificação de Níveis**: Heróis são classificados em níveis como Ferro, Bronze, Prata, Ouro, Platina, entre outros, dependendo da quantidade de XP.
-- **Feedback Auditivo**: Ao clicar no botão de classificação, um som é reproduzido para proporcionar feedback ao usuário.
-- **Layout Responsivo**: O design se adapta a diferentes tamanhos de tela, proporcionando uma experiência de uso otimizada para dispositivos móveis e desktops.
-- **Acessibilidade**: Suporte a leitores de tela e navegação por teclado para tornar o site acessível a usuários com deficiência visual.
-- **Imagens de Fundo Temáticas**: As imagens de fundo são inspiradas no universo do World of Warcraft, refletindo os diferentes níveis de herói, com cada classificação associada a uma imagem única.
+### Funções
+- **Classificação**: O herói é classificado em níveis iniciando em Ferro, Bronze, Prata, Ouro, Platina, Ascendente, Imortal e Radiante, dependendo da quantidade de XP.
+- **Responsividade**: O design se adapta a diferentes tamanhos de tela, proporcionando uma experiência de uso otimizada para dispositivos móveis e desktops.
+- **Imagens interativas**: As imagens de fundo são de acordo com os diferentes níveis de herói, com cada classificação associada a uma imagem específica.
 
-### Tecnologias Utilizadas
-- **HTML5**: Utilizado para estruturação semântica e acessível do conteúdo.
-- **CSS3**: Para estilização e design responsivo, incluindo um gradiente metálico azul para o quadro de entrada e fundo preto para a tela de vídeo.
-- **JavaScript**: Para a lógica de classificação de XP, interações dinâmicas e manipulação de áudio e imagens.
-- **Áudio**: Feedback auditivo ao clicar no botão de classificação.
-- **Imagens e Vídeo**: As imagens de fundo são inspiradas no World of Warcraft, representando os diferentes níveis dos heróis, e o vídeo de fundo é incorporado da mesma temática.
+### Tecnologias
+- **HTML5**: Estrutura semântica do conteúdo.
+- **CSS3**: Estilização e design da ferramenta.
+- **JavaScript**: Para a classificação de XP, interações e manipulação de imagens.
+- **Imagens**: As imagens de fundo representando os diferentes níveis do herói.
 
-### Como Usar
-1. Insira o nome do herói e a quantidade de experiência (XP).
-2. Clique em **"Classificar"** para ver o nível correspondente e o fundo alterado de acordo com a classificação.
-3. O som será reproduzido como feedback ao clicar no botão.
-
-### Instalação e Execução Local
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/dlucioyauh/ClassificadorHeroi.git
-   ```
-2. Abra o arquivo `index.html` em seu navegador.
-
-### Link para Demonstração
-[Acesse o projeto online aqui!](https://classificador-heroi.vercel.app/)
-
----
-
-### Referências Utilizadas
-- **Imagens de Níveis**: As imagens de fundo foram inspiradas nos diferentes níveis de heróis de jogos como World of Warcraft, proporcionando um visual temático e imersivo para cada categoria de XP (Ferro, Bronze, Ouro, etc.).
-- **Vídeo de Fundo**: O vídeo incorporado no fundo foi escolhido para complementar a temática de aventura e exploração do universo dos heróis, inspirado em jogos de RPG.
+### Uso
+1. Insira o nome do herói e o seu XP.
+2. Clique em **"Classificar"** para ver o nível de XP e a imagem de fundo de acordo com a classificação.
