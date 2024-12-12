@@ -1,41 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Classificador de Nível de Herói</title>
-    <link rel="stylesheet" href="./src/style.css">
+    <title>Nível do Herói</title>
+    <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
-    <header>
-        
-    </header>
+    <h1>Classificador de Níveis</h1>
+    <label for="nome">Nome do Personagem:</label>
+    <input type="text" id="nome" name="nome">
+    <br>
+    <label for="xp">XP:</label>
+    <input type="number" id="xp" name="xp">
+    <br>
+    <button onclick="classificar()">Classificar</button>
+    <p id="resultado"></p>
 
-    <main>
-        <!-- Contêiner do formulário de entrada -->
-        <section class="form-container">
-            <h2>Classificação do Herói</h2>
-            <form>
-                <label for="nomeHeroi">Nome do Herói:</label>
-                <input type="text" id="nomeHeroi" placeholder="Digite o nome do herói" aria-required="true">
-                
-                <label for="xpHeroi">Experiência (XP):</label>
-                <input type="number" id="xpHeroi" placeholder="Digite o XP do herói" aria-required="true">
-                
-                <button type="button" id="classificarBtn">Classificar</button><br><br>
-                
-                <button id="voltarBtn" class="hidden">Voltar ao vídeo</button>
-            </form>
-            
-            <output aria-live="polite" id="resultado"></output>
-        </section>
-
-    </main>
-
-    <footer>
-        <p>Desenvolvido por Douglas Lucio - IONKOD</p>
-    </footer>
-
-    <script src="src/assets/js/script.js"></script>
+    <script src="/assets/script.js"></script>
 </body>
 </html>
