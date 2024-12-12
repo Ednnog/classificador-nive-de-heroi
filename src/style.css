@@ -1,152 +1,47 @@
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+@import url(/assets/reset.css);
+
+h1 {
+    display: flex;
+    text-align: center;
+    padding: 3vw;
 }
 
-/* Layout da página */
+label {
+    display: flex;
+    text-align: center;
+    padding: 1vw;
+}
+
+input {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#resultado {
+    display: flex;
+    text-align: center;
+    padding: 1vw;
+    background-color: #ffffff81;
+    border-radius: 15px;
+}
+
+button {
+    display: flex;
+    text-align: center;
+    padding: 1vw;
+    border-radius: 15px;
+}
+
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background:url(https://next-image-transform.sandervspl.dev/image/https://www.wowvalor.app/assets/talent-tree/paladin-holy.webp?w=3840&q=75);
+    background:url(/assets/Imagens/Imagem\ 01.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     transition: background-image 0.5s ease-in-out;
-}
-
-main {
-    display: flex;
-    justify-content:first baseline; /* Ajuste para posicionar à esquerda */
     align-items: center;
-    padding: 20px;
-    height: 100vh; /* Faz o main ocupar a altura total da tela */
-    gap: 20px;
-}
-
-/* Quadro principal */
-.form-container {
-    border-radius:28% 72% 27% 73% / 97% 34% 66% 3%; 
-    width: 50%; /* Reduz a largura do quadro */
-    max-width: 450px;
-    padding: 50px;
-    background: linear-gradient(#ffffff, #ffffff);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    z-index: 1; /* Coloca o quadro acima das imagens de fundo */
-    position:relative;
-    margin:auto; /* Margem ao centro */
-}
-
-h2 {
-    color: #53af9b;
-}
-
-label {
-    display: block;
-    margin: 15px 0 5px;
-    font-size: 1.1em;
-    color: #cfc42d;
-}
-
-input {
-    width: 100%;
-    padding: 10px;
-    font-size: 1em;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-bottom: 15px;
-}
-
-button {
-    padding: 10px 20px;
-    font-size: 1.1em;
-    color: #fff;
-    background-color: #0f79eb;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-#resultado {
-    margin-top: 20px;
-    font-weight: bold;
-    font-size: 1.4em;
-    color: #dceb0ed3;
-}
-
-/* Estilos para o vídeo de fundo */
-.video-container {
-    width: 80%; /* O vídeo ocupa metade da largura */
-    height: 104%; /* E ocupa a altura total da tela */
-    max-width: none;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.video-container iframe {
-    width: 100%;
-    height: 100%;
-    aspect-ratio: 16/9;
-}
-
-/* Esconde o contêiner do vídeo quando a classe `hidden` é adicionada */
-.video-container.hidden {
-    display: none;
-}
-
-/* Responsividade */
-@media (max-width: 800px) {
-    main {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .form-container, .video-container {
-        width: 90%; /* Ajusta a largura para telas pequenas */
-    }
-
-    .video-container iframe {
-        height: auto;
-    }
-}
-
-/* Estilo do footer */
-footer {
-    margin-top: auto;
-    padding: 10px 0;
-    background-color: rgba(121, 119, 224, 0.8);
-    border-top: 1px solid #ddd;
-    text-align: center;
-}
-
-/* Estilo para o botão de voltar ao vídeo */
-#voltarBtn {
-    padding: 10px 20px;
-    font-size: 1.1em;
-    color: #fff;
-    background-color: #ff6347; /* Cor de fundo para o botão */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin-top: 20px;
-}
-
-#voltarBtn:hover {
-    background-color: #ff4500;
-}
-
-/* Esconde o botão quando não estiver visível */
-#voltarBtn.hidden {
-    display: none;
 }
